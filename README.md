@@ -45,10 +45,10 @@ The project consists of a four-stage data processing pipeline followed by an int
 * **`data/`**
   * `dataset.csv`: Raw parking violation database (excluded from Git tracking due to size).
 * **Notebooks / Converted Scripts:**
-  * `01_EDA.ipynb` / [01_EDA.py](01_EDA.py): Filters and cleans raw parking data.
-  * `02_Hotspot_Engineering.ipynb` / [02_Hotspot_Engineering.py](02_Hotspot_Engineering.py): Performs DBSCAN clustering and calculates base priority scores.
-  * `03_Hotspot_Trajectory_Analysis.ipynb` / [03_Hotspot_Trajectory_Analysis.py](03_Hotspot_Trajectory_Analysis.py): Computes linear regression trends and latest month anomaly Z-scores.
-  * `04_Patrol_Optimizer.ipynb` / [04_Patrol_Optimizer.py](04_Patrol_Optimizer.py): Merges metrics and generates optimized schedules (day of week/hour of day).
+  * `notebooks/01_EDA.ipynb` / [01_EDA.py](01_EDA.py): Filters and cleans raw parking data.
+  * `notebooks/02_Hotspot_Engineering.ipynb` / [02_Hotspot_Engineering.py](02_Hotspot_Engineering.py): Performs DBSCAN clustering and calculates base priority scores.
+  * `notebooks/03_Hotspot_Trajectory_Analysis.ipynb` / [03_Hotspot_Trajectory_Analysis.py](03_Hotspot_Trajectory_Analysis.py): Computes linear regression trends and latest month anomaly Z-scores.
+  * `notebooks/04_Patrol_Optimizer.ipynb` / [04_Patrol_Optimizer.py](04_Patrol_Optimizer.py): Merges metrics and generates optimized schedules (day of week/hour of day).
 * **Dashboard App:**
   * [05_Dashboard.py](05_Dashboard.py): Streamlit dashboard containing Mapbox maps, timeline trends, heatmaps, rosters, and an enforcement Impact Simulator.
 * **Pipeline Outputs:**
