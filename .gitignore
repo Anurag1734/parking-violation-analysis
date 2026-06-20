@@ -1,7 +1,4 @@
 __pycache__/
 venv/
-*.py
-!05_Dashboard.py
-!dashboard.py
 *.csv
 data/
